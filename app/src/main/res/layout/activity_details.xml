@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".presentation.ui.details.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/ivNoCity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/no_city"
+        tools:ignore="ContentDescription" />
+
+    <include
+        android:id="@+id/contentMainLayout"
+        layout="@layout/content_main" />
+
+    <include
+        android:id="@+id/toolbarLayout"
+        layout="@layout/toolbar" />
+</FrameLayout>

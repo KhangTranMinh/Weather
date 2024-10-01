@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="label_current">Current</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_wind">Wind</string>
+    <string name="label_next_4_days">Next 4 Days</string>
+    <string name="label_search_for_a_city">Search for a city</string>
+    <string name="label_wind_unit">%.0f km/hr</string>
+</resources>
